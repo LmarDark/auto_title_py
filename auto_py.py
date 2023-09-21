@@ -1,13 +1,20 @@
 import requests
 from bs4 import BeautifulSoup
 
-resposta = requests.get("https://www.google.com/")
-html = resposta.content
+print("Em quantas URLs deseja retirar o title")
+res = int(input())
 
-soup = BeautifulSoup(html, "html.parser")
-title = soup.find('title')
+for i in range(res):
+    print("Escreva o site")
+    link = input()
 
-print(title)
-print(title.string)
+    resposta = requests.get(link)
+    html = resposta.content
 
-resposta.text
+    soup = BeautifulSoup(html, "html.parser")
+    title = soup.find('title')
+
+    print(title)
+    print(title.string)
+
+    resposta.text
