@@ -1,5 +1,3 @@
 # auto_title_py
 
-[EM DESENVOLVIMENTO]
-
-Automoção que pega o **<title>** do site automáticamente.
+Arquivo python que pega o elemento <title> do html automaticamente e printa no Terminal.
