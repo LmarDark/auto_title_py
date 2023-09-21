@@ -18,3 +18,6 @@ for i in range(res):
     print(title.string)
 
     resposta.text
+    
+else:
+    print("Fim do loop!")
