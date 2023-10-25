@@ -1,23 +1,30 @@
 import requests
 from bs4 import BeautifulSoup
+import time
 
-print("Em quantas URLs deseja retirar o title")
-res = int(input())
-
-for i in range(res):
-    print("Escreva o site")
+def name():
+    global link
+    print("Escreva a URL do site:")
     link = input()
 
-    resposta = requests.get(link)
-    html = resposta.content
+def request():
+    global resposta
+    global html
+    try:
+        resposta = requests.get(link)
+        html = resposta.content
+    except:
+        print("URL não encontrada")
 
+def soupa():
     soup = BeautifulSoup(html, "html.parser")
     title = soup.find('title')
-
-    print(title)
+    time.sleep(1.5)
     print(title.string)
-
+    time.sleep(1.5)
     resposta.text
-    
-else:
-    print("Fim do loop!")
+
+while True:
+    name()
+    request()
+    soupa()
