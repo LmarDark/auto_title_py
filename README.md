@@ -1,3 +1,3 @@
 # auto_title_py
 
-Arquivo python que pega o elemento <title> do html automaticamente e printa no Terminal.
+Projeto básico onde é retirado o elemento <title> do HTML e posto no Terminal.
