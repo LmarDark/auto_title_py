@@ -25,6 +25,16 @@ def soupa():
     resposta.text
 
 while True:
-    name()
-    request()
-    soupa()
+    try:
+        name()
+    except:
+        break
+
+    try:
+        request()
+    except:
+        break
+
+    try:
+        soupa()
+    except: break
