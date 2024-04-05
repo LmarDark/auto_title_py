@@ -1,4 +1,4 @@
-$ SENDO REDESENVOLVIDO
+# SENDO REDESENVOLVIDO
 
 # auto_title_py
 
