@@ -1,40 +1,20 @@
-import requests
-from bs4 import BeautifulSoup
-import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
 
-def name():
-    global link
-    print("Escreva a URL do site:")
-    link = input()
+driver = webdriver.Chrome()
 
-def request():
-    global resposta
-    global html
-    try:
-        resposta = requests.get(link)
-        html = resposta.content
-    except:
-        print("URL não encontrada")
+driver.get("https://www.facebook.com/")
 
-def soupa():
-    soup = BeautifulSoup(html, "html.parser")
-    title = soup.find('title')
-    time.sleep(1.5)
-    print(title.string)
-    time.sleep(1.5)
-    resposta.text
+driver.implicitly_wait(1.0)
 
-while True:
-    try:
-        name()
-    except:
-        break
+user = "XXXXXXXXXXXXXXX" # AQUI VOCÊ INSERE SEU USUÁRIO!
+driver.find_element(by=By.XPATH, value="/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[1]/input").send_keys(user);
 
-    try:
-        request()
-    except:
-        break
+password = "XXXXXXXXXXXXXXX" # AQUI VOCÊ INSERE SUA SENHA!
+driver.find_element(by=By.XPATH, value="/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[1]/div[2]/div/input").send_keys(password);
 
-    try:
-        soupa()
-    except: break
+driver.find_element(by=By.XPATH, value="/html/body/div[1]/div[1]/div[1]/div/div/div/div[2]/div/div[1]/form/div[2]/button").click()
+
+driver.implicitly_wait(1.5)
+
+sys.exit(0) 
