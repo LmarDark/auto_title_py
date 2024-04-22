@@ -1,7 +1,7 @@
 # auto_title_py 🤖
 
 # Tópicos
-* [O que é o auto_title_py?](#o-que-é-o-oque-é-o-auto_title_py-)
+* [O que é o auto_title_py?](#o-que-é-o-auto_title_py-)
 * [O que é necessário para rodar o código?](#primeiros-passos-)
 * [Exemplificando o código da automoção](#o-que-foi-usado-neste-repositório-)
 * [Conclusão](#exemplificando-o-código-do-formulário-)
