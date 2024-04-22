@@ -19,3 +19,5 @@
 
 # Conclusão ✔️
 **É importante ressaltar que este projeto simples foi desenvolvido com o propósito de adquirir conhecimento sobre a biblioteca Selenium. Ao explorar e implementar este projeto, esperamos ter ampliado nossa compreensão e habilidades no uso eficaz dessa poderosa ferramenta de automação web.**
+
+---
