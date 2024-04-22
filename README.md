@@ -3,7 +3,7 @@
 # Tópicos
 * [O que é o auto_title_py?](#o-que-é-o-auto_title_py-)
 * [O que é necessário para rodar o código?](#o-que-é-necessário-para-rodar-o-código-%EF%B8%8F)
-* [Exemplificando o código da automoção](#o-que-é-necessário-para-rodar-o-código-%EF%B8%8F)
+* [Exemplificando o código da automoção](#exemplificando-o-código-da-automoção-)
 * [Conclusão](#exemplificando-o-código-do-formulário-)
 
 # O que é o auto_title_py? 🤔
