@@ -8,4 +8,8 @@
  - **É necessário inserir suas credenciais do Facebook no script.**
  - **Certifique-se de ter baixado e instalado a biblioteca importada necessária para o projeto.**
 
+# Exemplificando o código da automoção 📑
+**Neste código, utilizamos o Selenium, uma poderosa ferramenta voltada para Automatização Web. Após instalar as dependências necessárias com o pip install e inserir seu usuário e senha nos campos comentados do script, você estará pronto para depurar o código. O Selenium permite que você abra o WebDriver, uma interface que possibilita a interação programática com navegadores da web, facilitando a automação de tarefas online.**
 
+# Conclusão ✔️
+É importante ressaltar que este projeto simples foi desenvolvido com o propósito de adquirir conhecimento sobre a biblioteca Selenium. Ao explorar e implementar este projeto, esperamos ter ampliado nossa compreensão e habilidades no uso eficaz dessa poderosa ferramenta de automação web.
